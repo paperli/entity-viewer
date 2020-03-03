@@ -1,6 +1,6 @@
 import React from 'react';
-import { isURL } from 'Utils';
-import _ from '@google/model-viewer/';
+import { isURL } from './Utils';
+import '@google/model-viewer/dist/model-viewer';
 
 const EntityViewer = (props) => {
     const content = (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { isURL } from 'Utils';
+import { isURL } from './Utils';
 
 const Form = (props) => {
   

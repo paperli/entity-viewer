@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { isURL, getUSDZ, getGithubRawURL } from 'Utils';
-import Form from 'Form';
-import EntityViewer from 'EntityViewer';
+import { isURL, getUSDZ, getGithubRawURL } from './Utils';
+import Form from './Form';
+import EntityViewer from './EntityViewer';
 //import logo from './logo.svg';
-import './App.css';
+//import './App.css';
 
 function App() {
   const [model, setModel] = useState("null");
@@ -38,7 +38,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App container">
       <h1>Android AR Quick Look</h1>
       <Form onChange={handleChange} url={model} onSubmit={handleSubmit} onUsdzCheckboxChange={handleUsdzCheckboxChange} enableUsdzField={enableUsdzField} onUsdzFieldChange={handleUsdzFieldChange} />
       <EntityViewer url={submittedModel} usdz={submittedUsdz} />
