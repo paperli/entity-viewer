@@ -38,8 +38,7 @@ function App() {
   }
 
   return (
-    <div className="App container">
-      <h1>AR Quick Looker</h1>
+    <div className="App container mt-2">
       <Form onChange={handleChange} url={model} onSubmit={handleSubmit} onUsdzCheckboxChange={handleUsdzCheckboxChange} enableUsdzField={enableUsdzField} onUsdzFieldChange={handleUsdzFieldChange} />
       <EntityViewer url={submittedModel} usdz={submittedUsdz} />
     </div>
