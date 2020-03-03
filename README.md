@@ -1,3 +1,6 @@
+# EntityViewer
+The AR Entity viewer for Android and iOS devices
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
