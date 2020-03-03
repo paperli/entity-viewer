@@ -3,6 +3,12 @@ body {
     padding: 0;
 }
 
+footer {
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+}
+
 .model-viewer-box {
     width: 100%;
     padding-top: 56.25%;
