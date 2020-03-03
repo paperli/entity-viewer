@@ -17,7 +17,7 @@ const Form = (props) => {
         </div>
         <div className="form-check">
             <input className="form-check-input" type="checkbox" id="usdzCheckbox" value="usdzCheckbox" onChange={props.onUsdzCheckboxChange} />
-            <label className="form-check-label" for="usdzCheckbox">Specify USDZ location</label>
+            <label className="form-check-label" for="usdzCheckbox">Specify a USDZ location</label>
         </div>
         {
             props.enableUsdzField &&
