@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/EntityViewer/static/css/main.d1b05096.chunk.css",
-    "main.js": "/EntityViewer/static/js/main.9720675c.chunk.js",
-    "main.js.map": "/EntityViewer/static/js/main.9720675c.chunk.js.map",
-    "runtime-main.js": "/EntityViewer/static/js/runtime-main.5ad27c47.js",
-    "runtime-main.js.map": "/EntityViewer/static/js/runtime-main.5ad27c47.js.map",
-    "static/js/2.7c623c72.chunk.js": "/EntityViewer/static/js/2.7c623c72.chunk.js",
-    "static/js/2.7c623c72.chunk.js.map": "/EntityViewer/static/js/2.7c623c72.chunk.js.map",
-    "index.html": "/EntityViewer/index.html",
-    "precache-manifest.cdecaab57c156fb53deb1b17b05dff86.js": "/EntityViewer/precache-manifest.cdecaab57c156fb53deb1b17b05dff86.js",
-    "service-worker.js": "/EntityViewer/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/EntityViewer/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.7c623c72.chunk.js.LICENSE.txt": "/EntityViewer/static/js/2.7c623c72.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/EntityViewer/static/media/logo.5d5d9eef.svg"
+    "main.css": "/entity-viewer/static/css/main.d1b05096.chunk.css",
+    "main.js": "/entity-viewer/static/js/main.9a20ac1e.chunk.js",
+    "main.js.map": "/entity-viewer/static/js/main.9a20ac1e.chunk.js.map",
+    "runtime-main.js": "/entity-viewer/static/js/runtime-main.d0f17385.js",
+    "runtime-main.js.map": "/entity-viewer/static/js/runtime-main.d0f17385.js.map",
+    "static/js/2.7c623c72.chunk.js": "/entity-viewer/static/js/2.7c623c72.chunk.js",
+    "static/js/2.7c623c72.chunk.js.map": "/entity-viewer/static/js/2.7c623c72.chunk.js.map",
+    "index.html": "/entity-viewer/index.html",
+    "precache-manifest.e247cfe2b2b9cad8974e4eccc0abe65d.js": "/entity-viewer/precache-manifest.e247cfe2b2b9cad8974e4eccc0abe65d.js",
+    "service-worker.js": "/entity-viewer/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/entity-viewer/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.7c623c72.chunk.js.LICENSE.txt": "/entity-viewer/static/js/2.7c623c72.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/entity-viewer/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ad27c47.js",
+    "static/js/runtime-main.d0f17385.js",
     "static/js/2.7c623c72.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.9720675c.chunk.js"
+    "static/js/main.9a20ac1e.chunk.js"
   ]
 }
