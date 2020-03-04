@@ -16,3 +16,8 @@ export const getGithubRawURL = (t) => {
     t = t.replace("/blob/", "/");
     return t;
 }
+
+export const ltrim = (str) => {
+    if(!str) return str;
+    return str.replace(/\s+$/gi, '');
+  }

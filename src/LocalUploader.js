@@ -46,7 +46,7 @@ const LocalUploader = () => {
     <div className="App container mt-3">
         <form className="row">
             <div className="form-group col-12 col-sm-6 mb-4">
-                <label for="modelFileInput">Select a glb/glTF file</label>
+                <label htmlFor="modelFileInput">Select a glb/glTF file</label>
                 <input type="file" accept=".glb,.gltf" className="form-control-file" id="modelFileInput" name="modelFileInput" onChange={(e) => {
                     handleFileChange(e.target.files);
                 }} />
