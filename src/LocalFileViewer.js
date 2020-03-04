@@ -18,7 +18,7 @@ const Form = (props) => {
         <form onSubmit={props.handleSubmit}>
             <div className="form-group">
                 <label htmlFor="fileName">Model file name</label>
-                <input type="text" onChange={props.handleFileNameFieldChange} className="form-control" id="fileName" name="fileName" placeholder="Enter the model file name, eg. sample" aria-describedby="fileNameHint" />
+                <input type="text" onChange={props.handleFileNameFieldChange} className="form-control" id="fileName" name="fileName" autocorrect="off" autocapitalize="none" placeholder="Enter the model file name, eg. sample" aria-describedby="fileNameHint" />
                 <small id="fileNameHint" className="form-text text-muted">Add .gltf in suffix to specify a glTF file, eg. sample.gltf</small>
             </div>
             <button type="submit" className="btn btn-warning" disabled={props.fileName === undefined || props.fileName.length < 1}>Load Entity</button>
