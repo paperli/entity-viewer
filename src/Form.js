@@ -12,7 +12,7 @@ const Form = (props) => {
         <form onSubmit={props.onSubmit}>
         <div className="form-group">
             <label for="modelURL">Model URL</label>
-            <input type="url" className="form-control" id="modelURL" aria-describedby="modelURLHint" placeholder="Enter the link to the glb or glTF file" onChange={props.onChange} />
+            <input type="url" value={props.url} className="form-control" id="modelURL" aria-describedby="modelURLHint" placeholder="Enter the link to the glb or glTF file" onChange={props.onChange} />
             <small id="modelURLHint" className="form-text text-muted">Upload your model file to github project and copy the link to the file.</small>
         </div>
         <div className="form-check">

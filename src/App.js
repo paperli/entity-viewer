@@ -1,16 +1,21 @@
 import React, { useState } from 'react';
-import { isURL, getUSDZ, getGithubRawURL } from './Utils';
+import { isURL, getUSDZ, getGithubRawURL, getParameterByName } from './Utils';
 import Form from './Form';
 import EntityViewer from './EntityViewer';
 //import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const [model, setModel] = useState("null");
-  const [submittedModel, setSubmittedModel] = useState("null");
-  const [usdz, setUsdz] = React.useState("null");
-  const [submittedUsdz, setSubmittedUsdz] = useState("null");
+  var para = getParameterByName("model");
+  if (para !== null) {
+    para = getGithubRawURL(para);
+  }
+  const [model, setModel] = useState(`${para}`);
+  const [submittedModel, setSubmittedModel] = useState(`${para}`);
+  const [usdz, setUsdz] = React.useState(`${(para === null) ? "null" : getUSDZ(para)}`);
+  const [submittedUsdz, setSubmittedUsdz] = useState(`${(para === null) ? "null" : getUSDZ(para)}`);
   const [enableUsdzField, setEnableUsdzField] = useState(false);
+  //console.log(`url: ${getParameterByName("model")}`);
 
   const handleUsdzCheckboxChange = (evt) => {
     setEnableUsdzField(evt.target.checked);
@@ -34,6 +39,7 @@ function App() {
     } else {
       setSubmittedUsdz(`${getUSDZ(m)}`);
     }
+    window.location.href = `${window.location.origin}${window.location.pathname}?model=${m}`;
     evt.preventDefault();
   }
 
