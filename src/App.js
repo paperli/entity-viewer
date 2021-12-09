@@ -35,7 +35,7 @@ function App() {
     setSubmittedModel(m);
     if (enableUsdzField && isURL(usdz)) {
       // use specified usdz location
-      setSubmittedUsdz(`${getUSDZ(getGithubRawURL(usdz))}`);
+      setSubmittedUsdz(`${getGithubRawURL(usdz)}`);
     } else {
       setSubmittedUsdz(`${getUSDZ(m)}`);
     }
